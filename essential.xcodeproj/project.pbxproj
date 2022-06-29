@@ -12,6 +12,8 @@
 		F4B6A912286C4EFA00ACA9EC /* essentialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6A911286C4EFA00ACA9EC /* essentialTests.swift */; };
 		F4B6A913286C4EFA00ACA9EC /* essential.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B6A905286C4EFA00ACA9EC /* essential.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4B6A91D286C4FC100ACA9EC /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6A91C286C4FC100ACA9EC /* Test.swift */; };
+		F4B6A921286C754400ACA9EC /* ViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B6A920286C754400ACA9EC /* ViewExt.swift */; };
+		F4B6A924286C768E00ACA9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B6A923286C768E00ACA9EC /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +33,8 @@
 		F4B6A90C286C4EFA00ACA9EC /* essentialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = essentialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B6A911286C4EFA00ACA9EC /* essentialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = essentialTests.swift; sourceTree = "<group>"; };
 		F4B6A91C286C4FC100ACA9EC /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		F4B6A920286C754400ACA9EC /* ViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExt.swift; sourceTree = "<group>"; };
+		F4B6A923286C768E00ACA9EC /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			children = (
 				F4B6A905286C4EFA00ACA9EC /* essential.h */,
 				F4B6A91C286C4FC100ACA9EC /* Test.swift */,
+				F4B6A922286C767C00ACA9EC /* Views */,
+				F4B6A91E286C6ECA00ACA9EC /* Extension */,
 				F4B6A906286C4EFA00ACA9EC /* essential.docc */,
 			);
 			path = essential;
@@ -86,6 +92,30 @@
 				F4B6A911286C4EFA00ACA9EC /* essentialTests.swift */,
 			);
 			path = essentialTests;
+			sourceTree = "<group>";
+		};
+		F4B6A91E286C6ECA00ACA9EC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6A91F286C746600ACA9EC /* UIView */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F4B6A91F286C746600ACA9EC /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6A920286C754400ACA9EC /* ViewExt.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		F4B6A922286C767C00ACA9EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4B6A923286C768E00ACA9EC /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B6A924286C768E00ACA9EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4B6A907286C4EFA00ACA9EC /* essential.docc in Sources */,
+				F4B6A921286C754400ACA9EC /* ViewExt.swift in Sources */,
 				F4B6A91D286C4FC100ACA9EC /* Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

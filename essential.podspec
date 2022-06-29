@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "essential"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.license      = { :type => "MIT", :file => "LICENSE" }
   spec.author       = { "Arjunshukla" => "arjunshukla22@gmail.com" }
 
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "12.0"
   spec.swift_version = "4.2"
 
   spec.source        = { :git => "https://github.com/arjunshukla22/essential.git", :tag => "#{spec.version}" }
